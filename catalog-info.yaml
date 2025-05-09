@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-repo-for-some-bug
+  annotations:
+    github.com/project-slug: test-org-pat/test-repo-for-some-bug
+spec:
+  type: other
+  lifecycle: unknown
+  owner: user:default/super_user
